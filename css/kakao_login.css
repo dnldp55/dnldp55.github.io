@@ -1,0 +1,208 @@
+#wrap {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.span {
+    font-size: 25px;
+    color: black;
+}
+
+p {
+    color: grey;
+}
+
+.advertisement>p {
+    margin: 0;
+}
+
+.advertisement .adver {
+    width: 600px;
+    height: 350px;
+}
+
+.login {
+    width: 500px;
+    height: 550px;
+    border: 1px solid lightgrey;
+}
+
+.inlogin {
+    padding: 50px;
+    justify-content: center;
+}
+
+.letter {
+    font-size: 32px;
+}
+
+input {
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid darkgrey;
+    width: 375px;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+input:focus {
+    border-bottom: 2px solid lightgrey;
+    border-bottom-color: #000000;
+}
+
+.inlogin form .id {
+    padding-top: 20px;
+}
+
+.inlogin .keep {
+    cursor: pointer;
+    display: flex;
+}
+
+.inlogin .keep input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    appearance: none;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.inlogin .keep input[type="checkbox"]:checked {
+    background-color: #FDD835;
+}
+
+
+.inlogin .submit {
+    border-radius: 4%;
+    height: 50px;
+    width: 395px;
+    border: none;
+    background: #Fee500;
+}
+
+.inlogin .submit:focus {
+    outline: none;
+}
+
+.inlogin .and::before,.and::after {
+    display: inline-block;
+    width: calc(50% - 13px);
+    height: 1px;
+    margin: 8px 0;
+    background-color: rgba(0,0,0,0.06);
+    vertical-align: top;
+    content: '';
+}
+
+.inlogin .and {
+    color: lightgrey;
+    font-size: 12px;
+}
+
+.inlogin .QRcode {
+    border-radius: 3%;
+    outline: none;
+    border: none;
+    width: 395px;
+    height: 50px;
+}
+
+.inlogin .QRcode:hover {
+    background: #E0E0E0;
+}
+
+
+.three_list {
+    margin-top: 30px;
+    padding: 2px;
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+}
+
+.three_list a {
+    color: #616161;
+    text-decoration: none;
+}
+
+.three_list .join {
+    padding-right: 190px;
+}
+
+.three_list .account {
+    padding-right: 5px;
+    border-right: 1px solid lightgrey;
+}
+
+.three_list .pwd {
+    padding-left: 8px;
+}
+
+.bottom_list {
+    margin-top: 90px;
+    border-top: 1px solid lightgray;
+    font-size: small;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.bottom_list a {
+    padding-left: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.bottom_letter {
+    text-align: center;
+    font-size: small;
+}
+
+.bottom_letter a {
+    color: gray;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1023px) {
+    .advertisement {
+        display: none;
+    }
+
+    .login {
+        width: 420px;
+        justify-content: center;
+    }
+
+    .inlogin input {
+        width: 300px;
+    }
+
+    .inlogin .check {
+        width: 10px;
+        height: 10px;
+    }
+
+    .inlogin .submit {
+        width: 325px;
+    }
+
+    .inlogin .QRcode {
+        width: 325px;
+    }
+
+    .three .join {
+        padding-right: 105px;
+    }
+}
