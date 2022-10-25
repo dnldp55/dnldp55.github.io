@@ -2,7 +2,7 @@ https://dnldp55.github.io/
 
 
 >><head>
-    <meta property="og:url" content="https://code-study.tistory.com/">
+    <meta property="og:url" content="[[리다이렉트 대상 링크]]">
     <meta property="og:title" content="제목">
     <meta property="og:type" content="website">
     <meta property="og:image" content="[[카카오 썸네일 노출]]">
