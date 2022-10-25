@@ -16,3 +16,7 @@ https://dnldp55.github.io/
     <title>카카오톡 URL링크</title>
 </head>
 ```
+```
+# 빠른 썸네일 반영
+https://developers.kakao.com/tool/debugger/sharing
+```
