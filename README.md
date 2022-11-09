@@ -1,12 +1,21 @@
-# Kakao login Phishing
+# 카카오 로그인 페이지
+
+## 버전 변천사
 
 
-## Service
+<img src="이미지 026.jpg" style="width: 70%;">
+
 ```
-#Test
-https://dnldp55.github.io/
-#Live
-https://accountkakao.works/
+V1.0
+어색한 로그와 모바일 버전에 많은 불편이 확인 되었습니다.
+```
+
+```
+V2.0
+공식 페이지의 로고를 따와 사진용으로 대체하여 더욱 자연스러운 로그를 나타냅니다.
+일부 배경 화면 advertisement.png은 제거 하였습니다.
+모바일 최적화 하기 위해 일부 폰트 사이즈를 조절 하였으며, tail 옵션 일부를 제거 하였습니다.
+아이폰 기종에 색 반전 현상이 발생되어 input type 에서 button type 으로 교체하여 해결 하였습니다.
 ```
 
 ## Fake URL Preview
