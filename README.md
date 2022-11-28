@@ -26,7 +26,8 @@ V2.0
 <img src="이미지 001.jpg" style="width: 70%;">
 
 ## 페이크 썸네일
-<img src="이미지 003.jpg" style="width: 70%;">
+<img src="이미지 003.png" style="width: 20%;">
+
 ```
 <head>
     <meta property="og:url" content="[[카카오 썸네일 노출 링크]]">
