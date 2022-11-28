@@ -26,7 +26,7 @@ V2.0
 <img src="이미지 001.jpg" style="width: 70%;">
 
 ## 페이크 썸네일
-<img src="이미지 003.png" style="width: 20%;">
+<img src="이미지 003.png" style="width: 30%;">
 
 ```
 <head>
