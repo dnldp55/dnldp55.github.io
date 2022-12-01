@@ -115,6 +115,9 @@ input:focus {
     border: none;
     width: 395px;
     height: 50px;
+    font-size: 15px;
+    background: #e7e7e7;
+    color: black;
 }
 
 .inlogin .QRcode:hover {
@@ -200,6 +203,10 @@ input:focus {
 
     .inlogin .QRcode {
         width: 325px;
+        font-size : 15px;
+        background : #e7e7e7;
+        color: black;
+        
     }
 
     .three .join {
