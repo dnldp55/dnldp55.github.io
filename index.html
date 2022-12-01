@@ -4,7 +4,9 @@
 
 <head>
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
-
+<meta name="format-detection" content="telephone=no">
+	
+</script>
 </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,6 +35,8 @@ div.advertisement>p {
 
 ul.bottom_list>a:nth-of-type(6)>li {
   display : none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 
 ul.bottom_list>a:nth-of-type(5)>li {
@@ -146,6 +150,11 @@ ul.bottom_list>a:nth-of-type(1) {
 
 button.submit {
   font-size : 15px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  background: rgb(254, 229, 0);
+  color: black;
+  font-weight: normal
 }
 
 #kakaoServiceLogo {
@@ -169,11 +178,12 @@ body>div:nth-of-type(2) {
   width : 95px;
 }
 
-button.QRcode {
-  font-size : 15px;
-  background : #e7e7e7;
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 1000px white inset;
+	box-shadow: 0 0 0 1000px white inset;
 }
 </style>
+
 <body>
     <div id="wrap">
         <div class="advertisement">
@@ -203,7 +213,7 @@ button.QRcode {
                     <p><input type="text" name="id" id="id" placeholder="카카오메일 아이디, 이메일, 전화번호" class="id"></p>
                     <p><input type="password" name="pwd" id="pwd" placeholder="비밀번호"></p>
                     <p class="keep"><input type="checkbox">로그인 상태 유지</p>
-                    <p><button type="submit" class="submit">로그인</button></p>
+                    <p><button type="submit" class="submit" style=-webkit-appearance: none;>로그인</button></p>
                     <p class="and"><span class="and_text">또는</span></p>
                     <p><input type="submit" value="QR코드 로그인" class="QRcode"></p>
                 </form>
